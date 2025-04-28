@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
       return;
     }
 
-    fetch('https://ipinfo.io/json?token=1d3f5e6c1f4d62')
+    fetch('https://ipinfo.io/json?token=2a1a90e8f75445')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
